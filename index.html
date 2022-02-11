@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+        <!-- Ce nav-menu contient le logoMyUnicorn et les barres de navigation -->
+        <nav class="menu-nav">
+            <div class="logo">
+                <h2>MyUnicorn</h2>
+            </div>
+            <ul>
+                <li class="menu"><a href="#LePrincipe">PRINCIPE</a></li>
+                <li class="menu"><a href="#Noslicornes">NOS LICORNES</a></li>
+                <li class="menu"><a href="#Noustrouver">NOUS TROUVER</a></li>
+            </ul>
+        </nav>
+        <!-- Cette section est composé du titre et de l'image Arc en ciel comme arrière plan -->
+       <section> 
+           <h1>Un jour, une licorne</h1>
+           <div class="rainbow">
+           <img src="img/rainbow.png" alt="">
+           </div>
+       </section>
+
+       <!-- J'ai crée une div identifier "container" pour les contenus restant à part le footer afin de mieux les gérer en css  -->
+           <div id="container">
+
+               <!-- A l'intérieur du div container; il y a trois div distincts (div class="principe", div class="licorne" et div class="trouver") -->
+               <div class="principe">
+                   <h3 id="Leprincipe"><i class="far fa-star"></i> Le principe</h3>
+                   <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.</p>
+
+                    <p>Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus. Aenean quis enim diam.
+                    </p>
+               </div>
+               
+               <div class="licorne">
+                   <h3 id="Noslicornes"><i class="far fa-star"></i> Nos licorne</h3>
+                   <!-- Le div class="figure" contient tout les images et leurs figcaptions -->
+                       <div class="figure">
+
+                           <figure>
+                        <img src="img/photo1.jpg" alt="">
+                        <figcaption><p>Confetly</p></figcaption>
+                           </figure>
+                           <figure>
+                        <img src="img/photo2.jpg" alt="">
+                        <figcaption><p>Lapillon Magik</p></figcaption>
+                           </figure>
+                           <figure>
+                        <img src="img/photo3.jpg" alt="">
+                        <figcaption><p>El Ninjacorn</p></figcaption>
+                           </figure>
+                           <figure>
+                        <img src="img/photo4.jpg" alt="">
+                        <figcaption><p>Sweety Candy</p></figcaption>
+                           </figure>
+
+                       </div>
+               </div>
+           
+  
+           <div class="trouver">
+               <h3 id="Noustrouver"><i class="far fa-star"></i> Nous trouver</h3>
+               <!-- La div class="box" contient deux div(leftbox et rightbox). Cette div box permet de gérer les flex box des boites -->
+               <div class="box">
+               <div class="leftbox">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.5352920118034!2d47.524043414925906!3d-18.90768621221465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e00bfe681a5%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2smg!4v1643872609166!5m2!1sfr!2smg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+               </div>
+               <div class="rightbox">
+                   <h4>Notre élevage de licornes est situé au :</h4>
+                        <p>
+                            Analakely Market<br/>
+                            Arabe Rahezavana, Antananarivo, Madagascar<br/>
+                            01.22.45.67.90 
+                        </p>
+
+                    <h4>Newsletter</h4>
+                        <p>Abonnez-vous simplement à notre newsletter mensuelle !
+                        </p>
+                        <form method="post" action="traitement.php"></form>
+                           <input type="email" placeholder="votre@email.fr"><br/>
+                           <button>Valider</button>
+                           
+
+               </div>
+           </div>
+        </div>
+        </div>
+        <!-- C'est le pieds de page -->
+           <footer>
+               <p>2016 &copy; WebForce3</p>
+           </footer>
+
+</body>
+            </html>

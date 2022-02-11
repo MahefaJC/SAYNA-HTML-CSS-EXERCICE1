@@ -1,0 +1,153 @@
+/* Dans body, il faut remettre les margins et paddings à 0 pour annuler les valeurs par defaut  */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-image: url(img/background.png);
+}
+/* Ceci est le style de barre de navigation et du logo ensemble */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #C55394;
+    width: 100%;
+}
+/* Style des barres de menu */
+li.menu {
+    display: inline-block;
+    margin-left: 5px;
+}
+/* Style des liens de menu */
+li.menu a{
+    text-decoration: none;
+    list-style-type: none; 
+    color: #FFF; 
+    background-size: 50px;
+    padding: 30px;  
+}
+/* style de menu lors du survol du pointer */
+li.menu:hover a{
+    background-color:#EB43A3;
+}
+/* Style du titre "Un jour, une licorne" */
+h1{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    text-align: center;
+    color: #C55394;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+}
+ /* Style de l'airrière plan Arc en ciel */
+ .rainbow img{
+    position: absolute;
+    top: 18%;
+    left: 28%;
+}
+/* Les styles du div id="container"  */
+#container{
+    margin: 200px;
+    margin-top: 200px;
+    background: #FFF;
+    filter: drop-shadow(2px 4px 8px #333);
+    border-radius: 10px;
+    padding: 30px 50px 20px 50px;
+    width: 1000px;
+ }
+
+/* Style du div class="licorne" */
+.licorne{
+    margin-top: 50px;
+}
+/* Style des titres h2 */
+h2{
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    color: #FFF;
+    margin-left: 20px;
+}
+/* Style des titres h4 */
+h4{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+}
+
+/* Style div class="figure" qui est à l'intérieur du div class="licorne" */
+.figure{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+figure figcaption{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: -30px;
+    background: #333;
+    opacity: 80%;
+}
+figure figcaption p{
+    color: #FFF;
+    padding: 3px 0 3px 0;
+    margin: 0px;
+}
+
+figure img{
+    height: 200px;
+    padding: 2px;
+    margin: 0px;
+    clear: none;
+}
+
+/* style des titres h3 */
+h3{
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+    font-style: italic;
+}
+
+/* Style du div class="trouver" */
+.trouver{
+    margin-top: 50px;
+}
+/* style du div class="box" contenant les deux boites (leftbox et rightbox) */
+.box{
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.leftbox{
+    margin-right: 15px;
+}
+
+/* Style du button Valider pour l'envoie du email */
+button{
+    background-color: #C55394;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: #FFF;
+    border-color: #C55394;
+    size: 40px;
+    padding: 6px 20px 6px 20px;
+    border: #C55394;
+}
+/* Style du footer */
+footer{
+    background-color: #E577B5;
+    height: 50px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+footer p{
+    margin-right: 5px;
+}
